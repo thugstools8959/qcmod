@@ -2243,7 +2243,7 @@ task.wait()
 end
 end)
 
-Main:AddToggle("Auto Set Spawn Points",true,function(value)
+Main:AddToggle("Tự động đặt điểm hồi sinh",true,function(value)
 _G.AutoSetSpawn = value
 end)
 
