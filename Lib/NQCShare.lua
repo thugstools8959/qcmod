@@ -206,7 +206,8 @@ UserImage.Parent = User
 UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 UserImage.Position = UDim2.new(0, 10, 0, 9)
 UserImage.Size = UDim2.new(0, 25, 0, 25)
-UserImage.Image = "https://yt3.ggpht.com/8bAT0Bh4jtkdQQuh1v31oLyuigggv0-QtODevyP6jcnfWEqcP2safSVRknbgo0DXP0jNJ4mKiik=s88-c-k-c0x00ffffff-no-rj"
+
+UserImage.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
 
 local UserImageCorner = Instance.new("UICorner")
 UserImageCorner.CornerRadius = UDim.new(0, 100)
